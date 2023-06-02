@@ -1,0 +1,15 @@
+---
+import data from "../tiddlers/published.json";
+import KotakPostingan from "./kotak-postingan.astro";
+import striptags from "striptags";
+---
+
+<div class="grid grid-cols-1 gap-4">
+  {
+    data.map((x) => (
+      <a href={x.slug}>
+        <KotakPostingan title={x.title} text={striptags(x.excerpt, ["p"])} />
+      </a>
+    ))
+  }
+</div>

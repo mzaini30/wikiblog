@@ -1,0 +1,83 @@
+[
+		{
+				"title" : "Bekerja Memang Capek",
+				"published_date" : "20230501145239623",
+				"slug" : "bekerja-memang-capek",
+				"text" : "<p>Ya namanya bekerja memang capek sih. Tapi kalau sudah dapat uang, rasanya udah hilang itu capeknya. Apalagi kalau kita investasiin di crypto, terus cuan lagi. Tambah bahagia deh.</p><p>Baca juga: <a class=\"tc-tiddlylink tc-tiddlylink-missing\" href=\"./#kehidupan-setelah-kematian-itu-nyata\">Kehidupan Setelah Kematian Itu Nyata</a></p>",
+				"excerpt" : "<p>Ya namanya bekerja memang capek sih. Tapi kalau sudah dapat uang, rasanya udah hilang itu capeknya. Apalagi kalau kita investasiin di crypto, terus cuan lagi. Tambah bahagia deh.</p><p>Baca juga: [[Kehidupan</p>",
+				"kategori" : "",
+				"gambar" : ""
+			},{
+				"title" : "Berapa Sih Biaya Jasa Olah Website?",
+				"published_date" : "20230501063456260",
+				"slug" : "berapa-sih-biaya-jasa-olah-website",
+				"text" : "<p>Untuk biaya jasa olah website, itu 150 ribu per hari. Tapi, nggak usah khawatir dengan harga yang nantinya akan besar, karena pembayarannya bisa dicicil.</p><p>Jadi memang tergantung tingkat kesulitan sih. Kalau mudah ya, nggak terlalu banyak keluar uang.</p><p>Untuk penetapan biayanya, nanti di awal. Jadi, bukan aku sudah kerja, baru kumintain biayanya. Nggak ya. Jadi, deal dulu biaya di awal, baru mulai kukerjain.</p><h2 class=\"\">Tools yang Kugunakan untuk Menemukan Biayanya</h2><p>Aku pakai <code>biaya</code>.</p><p>Misal, aku ada data berikut:</p><pre class=\"hljs\"><code class=\"yaml hljs\"><span class=\"hljs-bullet\">-</span> <span class=\"hljs-attr\">task:</span> <span class=\"hljs-string\">Membuat</span> <span class=\"hljs-string\">aplikasi</span> <span class=\"hljs-string\">Android</span>\r\n  <span class=\"hljs-attr\">hari:</span> <span class=\"hljs-number\">45</span>\r\n<span class=\"hljs-bullet\">-</span> <span class=\"hljs-attr\">task:</span> <span class=\"hljs-string\">Mempromosikan</span> <span class=\"hljs-string\">aplikasi</span> <span class=\"hljs-string\">Android</span>\r\n  <span class=\"hljs-attr\">hari:</span> <span class=\"hljs-number\">1</span></code></pre><p>Itu nama filenya <code>jasa-android.yml</code>.</p><p>Lalu, aku jalankan <code>biaya jasa-android.yml</code>. Hasilnya adalah:</p><p><img class=\" tc-image-loading\" src=\"https://user-images.githubusercontent.com/7939342/235378885-b88455ae-681e-4fbc-904d-f3c4c76a04a3.png\"></p>",
+				"excerpt" : "<p>Untuk biaya jasa olah website, itu 150 ribu per hari. Tapi, nggak usah khawatir dengan harga yang nantinya akan besar, karena pembayarannya bisa dicicil.</p><p>Jadi memang tergantung tingkat kesulitan sih. Kalau</p>",
+				"kategori" : "",
+				"gambar" : ""
+			},{
+				"title" : "Cara Menggunakan Plugin Kotak-Kotak Landing Page",
+				"published_date" : "20230502120709274",
+				"slug" : "cara-menggunakan-plugin-kotak-kotak-landing-page",
+				"text" : "<p>Plugin ini akan merapikan konten yang dimiliki dalam bentuk kotak-kotak dengan dua kolom</p><h2 class=\"\">Contoh Jadinya</h2><p><img class=\" tc-image-loading\" src=\"https://user-images.githubusercontent.com/7939342/234778510-1bc6b728-5816-44d6-9da3-b777201d2306.png\"></p><h2 class=\"\">Cara Pakai </h2><pre class=\"hljs\"><code class=\"html hljs\">[kotak_kotak]\n\n[kotak judul=&quot;Pertama&quot;]\nIni konten pertama\n[/kotak]\n\n[kotak judul=&quot;Kedua&quot;]\nIni konten kedua\n[/kotak]\n\n[/kotak_kotak]</code></pre>",
+				"excerpt" : "<p>Plugin ini akan merapikan konten yang dimiliki dalam bentuk kotak-kotak dengan dua kolom</p><h2 class=\"\">Contoh Jadinya</h2><p><img class=\" tc-image-loading\" src=\"https://user-images.githubusercontent.com/7939342/234778510-1bc6b728-5816-44d6-9da3-b777201d2306.png\"></p><h2 class=\"\">Cara Pakai </h2><pre class=\"hljs\"><code class=\"html hljs\">[kotak_kotak]\n\n[kotak judul=&quot;Pertama&quot;]\nIni konten pertama\n[/kotak]\n\n[kotak judul=&quot;Kedua&quot;]\nIni konten kedua\n[/kotak]\n\n[/kotak_kotak]</code></pre>",
+				"kategori" : "",
+				"gambar" : ""
+			},{
+				"title" : "Cara Menggunakan Plugin Profil Dosen",
+				"published_date" : "20230502111641433",
+				"slug" : "cara-menggunakan-plugin-profil-dosen",
+				"text" : "<p>Untuk menampilkan profil dosen, gunakan shortcode berikut:</p><pre><code>[profil_dosen]</code></pre>",
+				"excerpt" : "<p>Untuk menampilkan profil dosen, gunakan shortcode berikut:</p><pre><code>[profil_dosen]</code></pre>",
+				"kategori" : "",
+				"gambar" : ""
+			},{
+				"title" : "Cara Menggunakan TiddlyWiki",
+				"published_date" : "20230502160737108",
+				"slug" : "cara-menggunakan-tiddlywiki",
+				"text" : "<p><a class=\"tc-tiddlylink tc-tiddlylink-missing\" href=\"./#tiddlywiki\">TiddlyWiki</a> adalah salah satu aplikasi yang berbasiskan Wiki. Artinya, penulisan sintaksnya adalah sama dengan Wiki. Yang membuat <a class=\"tc-tiddlylink tc-tiddlylink-missing\" href=\"./#tiddlywiki\">TiddlyWiki</a> ini khas adalah karena dia berbasis file. Jadi, ketika kita membuat postingan baru di <a class=\"tc-tiddlylink tc-tiddlylink-missing\" href=\"./#tiddlywiki\">TiddlyWiki</a>, maka akan terbentuk satu file berekstensi <code>tid</code>. Kemudian, untuk menjalankannya, cukup menggunakan Node JS.</p><p>Instalasinya pun cukup mudah. Langkah-langkahnya akan aku jabarkan berikut ini: </p><h2 class=\"\">Instalasi</h2><pre class=\"hljs\"><code class=\"bash hljs\">npm i -g tiddlywiki</code></pre><h2 class=\"\">Buat Folder <a class=\"tc-tiddlylink tc-tiddlylink-missing\" href=\"./#tiddlywiki\">TiddlyWiki</a></h2><pre class=\"hljs\"><code class=\"bash hljs\">tiddlywiki wiki --init server</code></pre><h2 class=\"\">Menjalankan <a class=\"tc-tiddlylink tc-tiddlylink-missing\" href=\"./#tiddlywiki\">TiddlyWiki</a></h2><pre class=\"hljs\"><code class=\"bash hljs\">tiddlywiki wiki --listen</code></pre>",
+				"excerpt" : "<p><a class=\"tc-tiddlylink tc-tiddlylink-missing\" href=\"./#tiddlywiki\">TiddlyWiki</a> adalah salah satu aplikasi yang berbasiskan Wiki. Artinya, penulisan sintaksnya adalah sama dengan Wiki. Yang membuat <a class=\"tc-tiddlylink tc-tiddlylink-missing\" href=\"./#tiddlywiki\">TiddlyWiki</a> ini khas adalah karena dia berbasis file. Jadi, ketika kita membuat postingan</p>",
+				"kategori" : "",
+				"gambar" : ""
+			},{
+				"title" : "Cara Mudah Menentukan Supply and Demand",
+				"published_date" : "20230430172307681",
+				"slug" : "cara-mudah-menentukan-supply-and-demand",
+				"text" : "<p>Ada banyak strategi trading yang bisa diterapkan untuk mendapatkan cuan. Tapi, kalau aku saat ini, lebih suka menggunakan strategi Support and Demand karena akan langsung kelihatan kapan harus beli dan kapan harus jual. Jadi, aku tinggal pasang Limit Order dan SL/TP di aplikasi Ajaib Kripto. Semoga segera ada fitur ini di Pluang juga sih, soalnya membantu banget tanpa perlu mantengin chart terus-terusan.</p><h2 class=\"\">Strateginya</h2><p>Simpel. Pertama, cari candle bar yang panjang (rally). Kemudian, kalau rally itu membuat harga memantul, tandain. Gitu aja sih. Contohnya seperti chart berikut:</p><p><img class=\" tc-image-loading\" src=\"https://user-images.githubusercontent.com/7939342/235262738-30e54e72-2392-4fc3-8fef-56673d77ff42.png\"></p><p>Di situ kan kelihatan terjadi beberapa kali rally. Tandain:</p><p><img class=\" tc-image-loading\" src=\"https://user-images.githubusercontent.com/7939342/235263069-3b0f84ac-0187-4898-a58c-3f5304e8e8ef.png\"></p><p>Kelihatan kan ya di situ bahwa terjadi beberapa kali pantulan ketika candlebar sudah menyentuh garis support and demand. Sekarang kita tambahkan lagi satu garis untuk menentukan SL:</p><p><img class=\" tc-image-loading\" src=\"https://user-images.githubusercontent.com/7939342/235263283-d06669b5-1cd6-42d3-b14d-04deb16bcd82.png\"></p><p>Akan tetapi, yang jadi masalah adalah hanya aplikasi Ajaib Kripto yang ada fitur ini. Kalau di aplikasi Pluang, cuma ada Market Order. Ya otomatis nggak ada deh SL dan TP. Terus, apa solusinya?</p><p>Ya kita pindah ke Ajaib Kripto sih. Tapi harapannya fitur ini akan hadir di Pluang dalam waktu dekat. Kata CSnya Pluang sih, fitur ini akan hadir.</p>",
+				"excerpt" : "<p>Ada banyak strategi trading yang bisa diterapkan untuk mendapatkan cuan. Tapi, kalau aku saat ini, lebih suka menggunakan strategi Support and Demand karena akan langsung kelihatan kapan harus beli dan</p>",
+				"kategori" : "",
+				"gambar" : ""
+			},{
+				"title" : "Kapan Terakhir Kali Jalan Kaki?",
+				"published_date" : "20230501150814686",
+				"slug" : "kapan-terakhir-kali-jalan-kaki",
+				"text" : "<p>Sadar nggak kalau kita selama ini lebih banyak bermotoran daripada jalan kaki? Terus, gimana mau sehat? Kerjaan tiap hari duduk aja di depan komputer, ke warung naik motor. Nggak ada olahraga sama sekali.</p><p>Makanya, usahakan jalan kaki. Olahraga yang simpel.</p>",
+				"excerpt" : "<p>Sadar nggak kalau kita selama ini lebih banyak bermotoran daripada jalan kaki? Terus, gimana mau sehat? Kerjaan tiap hari duduk aja di depan komputer, ke warung naik motor. Nggak ada</p>",
+				"kategori" : "",
+				"gambar" : ""
+			},{
+				"title" : "Ketika Membaca Qur'an Tidak Membuat Tenang",
+				"published_date" : "20230501161454137",
+				"slug" : "ketika-membaca-quran-tidak-membuat-tenang",
+				"text" : "<p>Yang namanya mengaji, membaca Qur'an, harus dengan perlahan dan fokus. Supaya kita bisa menangkap makna di dalam bacaan tersebut. Jika kita belum mendapatkannya, berarti waktunya yang kurang. Harus ditambah lagi.</p>",
+				"excerpt" : "<p>Yang namanya mengaji, membaca Qur'an, harus dengan perlahan dan fokus. Supaya kita bisa menangkap makna di dalam bacaan tersebut. Jika kita belum mendapatkannya, berarti waktunya yang kurang. Harus ditambah lagi.</p>",
+				"kategori" : "",
+				"gambar" : ""
+			},{
+				"title" : "Kritik Terbuka untuk SvelteKit",
+				"published_date" : "20230502210358226",
+				"slug" : "kritik-terbuka-untuk-sveltekit",
+				"text" : "<p>Entah kenapa <a class=\"tc-tiddlylink tc-tiddlylink-missing\" href=\"./#sveltekit\">SvelteKit</a> ini SSRnya lama banget kalau untuk blog. Soalnya kan, blog itu terdiri dari kumpulan Markdown. Lalu, dipanggil semuanya dengan <code>import.meta.glob()</code>.</p><p>Jadi kayaknya lebih cepat jika menggunakan Astro untuk membuat website statis.</p><p>Habis tu, seringnya error seperti ini kalau menggunakan <code>import.meta.glob()</code>:</p><p><img class=\" tc-image-loading\" src=\"https://user-images.githubusercontent.com/7939342/235674307-9c959034-b745-4edb-8aa0-c1313c598a29.png\"></p>",
+				"excerpt" : "<p>Entah kenapa <a class=\"tc-tiddlylink tc-tiddlylink-missing\" href=\"./#sveltekit\">SvelteKit</a> ini SSRnya lama banget kalau untuk blog. Soalnya kan, blog itu terdiri dari kumpulan Markdown. Lalu, dipanggil semuanya dengan <code>import.meta.glob()</code>.</p><p>Jadi kayaknya lebih cepat jika menggunakan Astro untuk</p>",
+				"kategori" : "",
+				"gambar" : ""
+			},{
+				"title" : "Tidak Perlu Merencanakan",
+				"published_date" : "20230501160643210",
+				"slug" : "tidak-perlu-merencanakan",
+				"text" : "<p>Ada yang bilang kalau gagal merencanakan, berarti sama saja dengan merencanakan kegagalan. Oke, nggak ada yang salah dengan kata-kata itu asalkan jumlah rencana kita masih \"masuk akal\". Jika kita punya 100 rencana, kapan mewujudkannya?</p><p>Pun kalau kita mau berusaha mewujudkannya, apakah kita punya waktu? Jadi, cek lagi list yang akan kita kerjakan. Hapus semua. Sisakan dua atau tiga yang benar-benar penting dan memang harus kita kerjakan.</p>",
+				"excerpt" : "<p>Ada yang bilang kalau gagal merencanakan, berarti sama saja dengan merencanakan kegagalan. Oke, nggak ada yang salah dengan kata-kata itu asalkan jumlah rencana kita masih \"masuk akal\". Jika kita punya</p>",
+				"kategori" : "",
+				"gambar" : ""
+			}
+]

@@ -1,0 +1,12 @@
+created: 20230502031516708
+modified: 20230502031641434
+published_date: 20230502111641433
+tags: Published
+title: Cara Menggunakan Plugin Profil Dosen
+type: text/vnd.tiddlywiki
+
+Untuk menampilkan profil dosen, gunakan shortcode berikut:
+
+```
+[profil_dosen]
+```

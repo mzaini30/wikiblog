@@ -1,0 +1,28 @@
+created: 20230502040605647
+modified: 20230502040709275
+published_date: 20230502120709274
+tags: Published
+title: Cara Menggunakan Plugin Kotak-Kotak Landing Page
+type: text/vnd.tiddlywiki
+
+Plugin ini akan merapikan konten yang dimiliki dalam bentuk kotak-kotak dengan dua kolom
+
+!! Contoh Jadinya
+
+[img[https://user-images.githubusercontent.com/7939342/234778510-1bc6b728-5816-44d6-9da3-b777201d2306.png]]
+
+!! Cara Pakai 
+
+```html
+[kotak_kotak]
+
+[kotak judul="Pertama"]
+Ini konten pertama
+[/kotak]
+
+[kotak judul="Kedua"]
+Ini konten kedua
+[/kotak]
+
+[/kotak_kotak]
+```

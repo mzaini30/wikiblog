@@ -1,0 +1,18 @@
+---
+import { judul_halaman as judul_halaman_default } from "../data/default";
+
+const { judul_halaman } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{judul_halaman || judul_halaman_default}</title>
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>

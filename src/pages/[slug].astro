@@ -1,0 +1,29 @@
+---
+import Default from "../layout/default.astro";
+import SemuaPostingan from "../komponen/semua-postingan.astro";
+import data from "../tiddlers/published.json";
+import KotakPostingan from "../komponen/kotak-postingan.astro";
+
+const { slug } = Astro.params;
+const { title, text } = Astro.props;
+
+export function getStaticPaths() {
+  let hasil = [];
+  for (let x of data) {
+    hasil.push({
+      params: {
+        slug: x.slug,
+      },
+      props: {
+        title: x.title,
+        text: x.text,
+      },
+    });
+  }
+  return hasil;
+}
+---
+
+<Default judulnya={title}>
+  <KotakPostingan title={title} text={text.replaceAll("./#", "/")} />
+</Default>
