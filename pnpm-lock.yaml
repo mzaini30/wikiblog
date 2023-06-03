@@ -20,6 +20,9 @@ dependencies:
   unocss:
     specifier: ^0.51.8
     version: 0.51.8(postcss@8.4.23)(vite@4.3.3)
+  vite-plugin-yaml2:
+    specifier: ^1.1.5
+    version: 1.1.5
 
 devDependencies:
   prettier-plugin-astro:
@@ -3289,6 +3292,10 @@ packages:
       is-buffer: 2.0.5
       unist-util-stringify-position: 3.0.3
       vfile-message: 3.1.4
+    dev: false
+
+  /vite-plugin-yaml2@1.1.5:
+    resolution: {integrity: sha512-98PPEBWmyS+t2KcvGXfvnX83+QRGedpyPkDwluUAzCyCquwJzYsUNqfNzJHDk2/52d8uoCmJTZJpnQMls7LNtw==}
     dev: false
 
   /vite@4.3.3:

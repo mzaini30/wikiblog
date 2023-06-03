@@ -18,11 +18,7 @@ type: text/vnd.tiddlywiki
 					<$text text={{{ [<description>jsonstringify[]] }}}/>
 					</$wikify>
 				`",
-				"excerpt" : "`
-					<$wikify name="description" text={{{ [<currentTiddler>get[text]split[ ]first[30]join[ ]] }}} output="html">
-					<$text text={{{ [<description>jsonstringify[]] }}}/>
-					</$wikify>
-				`",
+				"ringkasan" : "`<$text text={{{[<currentTiddler>get[ringkasan]]}}}/>`",
 				"kategori" : "`<$text text={{{[<currentTiddler>get[kategori]]}}}/>`",
 				"gambar" : "`<$text text={{{[<currentTiddler>get[gambar]]}}}/>`"
 			}`<$list filter="[<counter-last>!match[yes]]">,</$list>
