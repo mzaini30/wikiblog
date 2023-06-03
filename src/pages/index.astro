@@ -1,8 +1,17 @@
 ---
-import Default from "../layout/default.astro";
-import SemuaPostingan from "../komponen/semua-postingan.astro";
+import Base from "../layout/base.astro";
+// @ts-ignore
+import konfigurasi from "../konfigurasi.yml";
 ---
 
-<Default>
-  <SemuaPostingan />
-</Default>
+<Base
+    judul={konfigurasi.judul}
+    deskripsi={konfigurasi.deskripsi}
+    gambar={konfigurasi.cover}
+>
+    <img
+        src={konfigurasi.cover}
+        class="w-full aspect-[1663/269] object-cover"
+        alt=""
+    />
+</Base>
