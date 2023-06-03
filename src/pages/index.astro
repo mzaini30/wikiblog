@@ -2,6 +2,8 @@
 import Base from "../layout/base.astro";
 import konfigurasi from "../konfigurasi.yml";
 import semua_postingan from "../data/semua-postingan";
+
+let semuanya = JSON.stringify(semua_postingan(), null, 2);
 ---
 
 <Base
@@ -9,7 +11,7 @@ import semua_postingan from "../data/semua-postingan";
     deskripsi={konfigurasi.deskripsi}
     gambar={konfigurasi.cover}
 >
-    <p>{semua_postingan}</p>
+    <pre>{semuanya}</pre>
     <img
         src={konfigurasi.cover}
         class="w-full aspect-[1663/269] object-cover"
