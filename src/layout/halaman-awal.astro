@@ -2,6 +2,7 @@
 import Base from "../layout/base.astro";
 import konfigurasi from "../konfigurasi.yml";
 import semua_postingan from "../data/semua-postingan";
+import Header from "../komponen/header.astro";
 
 const { link_aktif, judul } = Astro.props;
 
@@ -13,35 +14,8 @@ let semuanya = JSON.stringify(semua_postingan(), null, 2);
   deskripsi={konfigurasi.deskripsi}
   gambar={konfigurasi.cover}
 >
-  <img
-    src={konfigurasi.cover}
-    class="w-full aspect-[1663/269] object-cover"
-    alt="Gambar cover"
-  />
-  <div class="py-10 mx-auto w-350 max-w-[80%] sm:flex gap-10 items-center">
-    <img
-      class="aspect-[1/1] object-cover hidden sm:inline-block w-50 rounded-[50%]"
-      src={konfigurasi.foto_profil}
-      alt="Gambar foto profil"
-    />
-    <div>
-      <h1 class="text-3xl pb-2 text-center sm:text-left">
-        {konfigurasi.judul}
-      </h1>
-      <p class="text-center sm:text-left">{konfigurasi.deskripsi}</p>
-    </div>
-  </div>
-  <div class="border-b-2 uppercase text-lg sticky top-0 bg-white">
-    <div
-      class="mx-auto [&_a]:(px-5 py-3 inline-block text-gray-500 -mb-[2px]) hover:[&_a]:text-gray-800 [&_.aktif]:(text-black border-b-4 border-b-gray-500) w-350 max-w-[80%]"
-    >
-      <a href="/" class={link_aktif == "beranda" ? "aktif" : null}>Beranda</a>
-      <a href="/kategori" class={link_aktif == "kategori" ? "aktif" : null}
-        >Kategori</a
-      >
-      <a href="/tentang" class={!link_aktif ? "aktif" : null}>Tentang</a>
-    </div>
-  </div>
+  <Header link_aktif={link_aktif} />
+
   <div class="mx-auto py-10 w-350 max-w-[80%]">
     <slot />
   </div>

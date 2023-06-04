@@ -33,7 +33,7 @@ const filteredData = data
   <div class="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-4">
     {
       filteredData.map((x) => (
-        <a href={`/kategori/${encodeURIComponent(x.kategori)}`}>
+        <a href={`/kategori/${x.kategori.replaceAll(" ", "--")}`}>
           <div class="relative rounded-xl overflow-hidden">
             <img
               class="aspect-[304/171] object-cover"

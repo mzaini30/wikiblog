@@ -6,14 +6,17 @@ import transformerVariantGroup from '@unocss/transformer-variant-group';
 import { presetTypography, presetUno } from 'unocss';
 import svelte from "@astrojs/svelte";
 
+import sitemap from "@astrojs/sitemap";
+
 // https://astro.build/config
 export default defineConfig({
+  site: 'http://localhost',
   integrations: [UnoCSS({
     injectReset: true,
     // or a path to the reset file
     transformers: [transformerVariantGroup()],
     presets: [presetTypography(), presetUno()]
-  }), svelte()],
+  }), svelte(), sitemap()],
   vite: {
     plugins: [yaml()]
   }
