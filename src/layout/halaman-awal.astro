@@ -1,0 +1,30 @@
+---
+import Base from "../layout/base.astro";
+import konfigurasi from "../konfigurasi.yml";
+import semua_postingan from "../data/semua-postingan";
+
+let semuanya = JSON.stringify(semua_postingan(), null, 2);
+---
+
+<Base
+  judul={konfigurasi.judul}
+  deskripsi={konfigurasi.deskripsi}
+  gambar={konfigurasi.cover}
+>
+  <img
+    src={konfigurasi.cover}
+    class="w-full aspect-[1663/269] object-cover"
+    alt="Gambar cover"
+  />
+  <div class="pt-10 mx-auto w-350 max-w-[80%] flex gap-10 items-center">
+    <img
+      class="aspect-[1/1] object-cover w-50 rounded-[50%]"
+      src={konfigurasi.foto_profil}
+      alt="Gambar foto profil"
+    />
+    <div>
+      <h1 class="text-3xl pb-2">{konfigurasi.judul}</h1>
+      <p>{konfigurasi.deskripsi}</p>
+    </div>
+  </div>
+</Base>
