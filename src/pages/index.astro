@@ -1,9 +1,11 @@
 ---
 import HalamanAwal from "../layout/halaman-awal.astro";
 import semuaPostingan from "../data/semua-postingan";
+import konfigurasi from "../konfigurasi.yml";
+import Iklan from "../komponen/iklan.svelte";
 ---
 
-<HalamanAwal link_aktif="beranda">
+<HalamanAwal link_aktif="beranda" judul={konfigurasi.judul}>
     <div class="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-4">
         {
             semuaPostingan().map((x) => (

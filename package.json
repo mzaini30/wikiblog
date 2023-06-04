@@ -10,10 +10,13 @@
     "build": "astro build"
   },
   "dependencies": {
+    "@astrojs/svelte": "^2.2.0",
     "@unocss/reset": "^0.51.8",
-    "astro": "^2.3.2",
+    "astro": "^2.5.7",
+    "iklan-shopee": "^0.1.1",
     "kumpulan-tools": "^1.0.0",
     "striptags": "^3.2.0",
+    "svelte": "^3.54.0",
     "unocss": "^0.51.8",
     "vite-plugin-yaml2": "^1.1.5"
   }

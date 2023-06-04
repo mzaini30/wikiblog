@@ -18,6 +18,24 @@
 		"gambar": "https://http.cat/502.jpg"
 	},
 	{
+		"title": "Kedua",
+		"published_date": "20230603174521108",
+		"slug": "kedua-2",
+		"text": "<p>Tulisan yang lainnya.</p>",
+		"ringkasan": "Kedua ya...",
+		"kategori": "hai",
+		"gambar": "https://http.cat/502.jpg"
+	},
+	{
+		"title": "Kedua",
+		"published_date": "20230603174521108",
+		"slug": "kedua-3",
+		"text": "<p>Tulisan yang lainnya.</p>",
+		"ringkasan": "Kedua ya...",
+		"kategori": "hai",
+		"gambar": "https://http.cat/502.jpg"
+	},
+	{
 		"title": "Kosongan",
 		"published_date": "20230603174727815",
 		"slug": "kosongan",

@@ -9,7 +9,7 @@ let semuanya = JSON.stringify(semua_postingan(), null, 2);
 ---
 
 <Base
-  judul={judul || konfigurasi.judul}
+  judul={judul || "Tentang"}
   deskripsi={konfigurasi.deskripsi}
   gambar={konfigurasi.cover}
 >
@@ -39,6 +39,7 @@ let semuanya = JSON.stringify(semua_postingan(), null, 2);
       <a href="/kategori" class={link_aktif == "kategori" ? "aktif" : null}
         >Kategori</a
       >
+      <a href="/tentang" class={!link_aktif ? "aktif" : null}>Tentang</a>
     </div>
   </div>
   <div class="mx-auto py-10 w-350 max-w-[80%]">

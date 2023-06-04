@@ -25,3 +25,7 @@ Pakai kategori `pinned`. Ini cuma bisa untuk satu artikel terbaru.
 ## Konfigurasi
 
 Edit file `./src/konfigurasi.yml`
+
+## Halaman Tentang
+
+Edit file `./src/pages/tentang.md`
