@@ -10,7 +10,7 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'http://localhost',
+  site: 'https://localhost',
   integrations: [UnoCSS({
     injectReset: true,
     // or a path to the reset file
