@@ -18,10 +18,6 @@ Auto build dengan Github Action. Tapi, kalau mau manual, bisa menggunakan `pnpm 
 - ringkasan
 - gambar
 
-## Pinned Kategori
-
-Pakai kategori `pinned`. Ini cuma bisa untuk satu artikel terbaru.
-
 ## Konfigurasi
 
 Edit file `./src/konfigurasi.yml`
