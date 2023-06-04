@@ -1,5 +1,20 @@
 ---
 import HalamanAwal from "../layout/halaman-awal.astro";
+import semuaPostingan from "../data/semua-postingan";
+import konfigurasi from "../konfigurasi.yml";
+
+let kategori = [];
+
+for (let x of semuaPostingan()) {
+  if (x.kategori != konfigurasi.default.kategori) {
+    kategori.push(x.kategori);
+  }
+}
+kategori = [...new Set(kategori)].sort((a, b) =>
+  a.toLowerCase() > b.toLowerCase() ? 1 : -1
+);
 ---
 
-<HalamanAwal />
+<HalamanAwal link_aktif="kategori" judul="Kategori">
+  {kategori.map((x) => <a />)}
+</HalamanAwal>

@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "@unocss/transformer-variant-group": "^0.52.7",
     "prettier-plugin-astro": "^0.8.0",
     "tiddlywiki": "^5.2.7"
   },

@@ -1,5 +1,22 @@
 ---
 import HalamanAwal from "../layout/halaman-awal.astro";
+import semuaPostingan from "../data/semua-postingan";
 ---
 
-<HalamanAwal />
+<HalamanAwal link_aktif="beranda">
+    <div class="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+        {
+            semuaPostingan().map((x) => (
+                <a href={`/${x.slug}`}>
+                    <img
+                        class="rounded-xl aspect-[304/171] object-cover"
+                        src={x.gambar}
+                        loading="lazy"
+                        alt={`Gambar ${x.title}`}
+                    />
+                    <p class="pt-3 pb-5">{x.title}</p>
+                </a>
+            ))
+        }
+    </div>
+</HalamanAwal>

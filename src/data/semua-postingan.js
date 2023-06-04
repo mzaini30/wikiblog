@@ -10,5 +10,5 @@ export default function () {
     ringkasan: x.ringkasan || konfigurasi.default.ringkasan,
     kategori: x.kategori || konfigurasi.default.kategori,
     gambar: x.gambar || konfigurasi.default.gambar
-  }))
+  })).sort((a, b) => b.published_date - a.published_date ? 1 : -1)
 }

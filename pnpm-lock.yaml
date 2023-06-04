@@ -25,6 +25,9 @@ dependencies:
     version: 1.1.5
 
 devDependencies:
+  '@unocss/transformer-variant-group':
+    specifier: ^0.52.7
+    version: 0.52.7
   prettier-plugin-astro:
     specifier: ^0.8.0
     version: 0.8.0
@@ -810,6 +813,10 @@ packages:
     resolution: {integrity: sha512-myHRKBphEN3h0OnsUhg2JaFKjFGfqF/jmmzZCCMNU5UmxbheZomXANNLYXVgEP6LHvd4xAF0DEzrOBcDPLf0HQ==}
     dev: false
 
+  /@unocss/core@0.52.7:
+    resolution: {integrity: sha512-dZonrlfu33SkUMsZXlsyYSM79tr2nLer/hBEU2ZaemRik2KchxIUNlZV6kX1f1k3m+gEtVQOyx1MImpgLS8PWg==}
+    dev: true
+
   /@unocss/extractor-arbitrary-variants@0.51.8:
     resolution: {integrity: sha512-cCsdRLqmt3adcaRtoIP2pC8mYgH3ed8DEES3E7VOWghqLjwLULUMyBS+vy7n9CvnV75kuTKb1bZ+k9eu/rfh2w==}
     dependencies:
@@ -933,6 +940,12 @@ packages:
     dependencies:
       '@unocss/core': 0.51.8
     dev: false
+
+  /@unocss/transformer-variant-group@0.52.7:
+    resolution: {integrity: sha512-pGqTfT1hax3F+yjs6n6r5loSIP/Dsm/NuEA5nwazTu4gmubiIBi11UjoK/pE/cFg9Z3yp6n9Lspo71yALJbpVg==}
+    dependencies:
+      '@unocss/core': 0.52.7
+    dev: true
 
   /@unocss/vite@0.51.8(vite@4.3.3):
     resolution: {integrity: sha512-0mVCgh2Bci2oey6VXGAJBI3x/p5whJiY32BpJaugCmLlZPc6rnWQ8o/FaOTed2EznWAGA8zRRF2l3fEVCURh9g==}
