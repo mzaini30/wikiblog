@@ -13,8 +13,8 @@ import Iklan from "../komponen/iklan.svelte";
                 .map((x) => (
                     <a href={`/${x.slug}`}>
                         <img
-                            class="rounded-xl aspect-[304/171] object-cover"
-                            src={x.gambar}
+                            class="rounded-xl aspect-[304/171] w-full object-cover"
+                            src={x.gambar} width='258' height="145"
                             loading="lazy"
                             alt={`Gambar ${x.title}`}
                         />

@@ -54,7 +54,8 @@ const gambar = artikelnya[0].gambar;
         artikelnya.map((x) => (
           <a href={`/${x.slug}`}>
             <img
-              class="rounded-xl aspect-[304/171] object-cover"
+              class="rounded-xl aspect-[304/171] w-full object-cover"
+              width='258' height="145"
               src={x.gambar}
               loading="lazy"
               alt={`Gambar ${x.title}`}

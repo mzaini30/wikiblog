@@ -36,7 +36,8 @@ const filteredData = data
         <a href={`/kategori/${x.kategori.replaceAll(" ", "--")}`}>
           <div class="relative rounded-xl overflow-hidden">
             <img
-              class="aspect-[304/171] object-cover"
+              class="aspect-[304/171] object-cover w-full"
+              width='258' height="145"
               src={x.gambar}
               loading="lazy"
               alt={`Gambar ${x.kategori}`}
